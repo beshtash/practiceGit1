@@ -7,5 +7,5 @@ test('Assertion practice', async ({ page }) => {
     await expect(page.locator('[data-test="login-button"]')).toHaveCount(1);
     await expect(page.locator('[data-test="login-button"]')).toBeEnabled();
     console.log("Practice 2nd push")
-
+    console.log("Practice Pull Request");
 })
