@@ -34,7 +34,7 @@ test("Practice of getBy methods", async ({ page }) => {
 
 })
 
-test.only('Practice of getByPlaceholder', async ({ page }) => {
+test('Practice of getByPlaceholder', async ({ page }) => {
     await page.goto('https://demo.nopcommerce.com/login');
     
     console.log(await page.getByText('New Customer', { exact: true}).textContent());
